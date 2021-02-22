@@ -776,7 +776,9 @@ SystemVerilog提供了许多新的数据类型和结构，这样您就可以创�
 
 ## 练习
 
-1.  <img src="..\media\ch2_image73.png" style="width:3.215in;height:2.1in" />给定以下代码示例:
+1.  给定以下代码示例:
+
+    <img src="..\media\ch2_image73.png" style="width:3.215in;height:2.1in" />
 
     1.  my\_byte的取值范围是什么?
 
@@ -788,25 +790,25 @@ SystemVerilog提供了许多新的数据类型和结构，这样您就可以创�
 
     5.  my\_short\_int2的十进制值是多少?
 
-2.  <img src="..\media\ch2_image74.png" style="width:3.21702in;height:1.32833in" />给定以下代码示例:
+2.  给定以下代码示例:
 
-按给定顺序计算下列语句，并给出每次赋值的结果
+    <img src="..\media\ch2_image74.png" style="width:3.21702in;height:1.32833in" />
 
-1.  my\_mem \[2\] = my\_logicmem \[4\];
+    按给定顺序计算下列语句，并给出每次赋值的结果
 
-2.  my\_logic = my\_logicmem \[4\];
+    1.  my\_mem \[2\] = my\_logicmem \[4\];
 
-3.  my\_logicmem \[3\] = my\_mem \[3\];
+    2.  my\_logic = my\_logicmem \[4\];
 
-4.  my\_mem \[3\] = my\_logic;
+    3.  my\_logicmem \[3\] = my\_mem \[3\];
 
-5.  my\_logic = my\_logicmem \[1\];
+    4.  my\_mem \[3\] = my\_logic;
 
-6.  my\_logic = my\_mem \[1\];
+    5.  my\_logic = my\_logicmem \[1\];
 
-7.  my\_logic = my\_logicmem \[my\_logicmem \[41\];
+    6.  my\_logic = my\_mem \[1\];
 
-<!-- -->
+    7.  my\_logic = my\_logicmem \[my\_logicmem \[41\];
 
 3.  编写SystemVerilog代码:
 
@@ -814,13 +816,13 @@ SystemVerilog提供了许多新的数据类型和结构，这样您就可以创�
 
     2.  初始化my\_array以便:
 
-\* my\_array\[0\] = 12'h012
+    \* my\_array\[0\] = 12'h012
 
-\* my\_array\[1\] = 12'h345
+    \* my\_array\[1\] = 12'h345
 
-\* my\_array\[2\] = 12'h678
+    \* my\_array\[2\] = 12'h678
 
--   my\_array \[3\] = 12 'h9ab
+    my\_array \[3\] = 12 'h9ab
 
 3.  遍历my\_array并打印出每个12位元素的位\[5:4\]
 
@@ -834,31 +836,29 @@ SystemVerilog提供了许多新的数据类型和结构，这样您就可以创�
 
     1.  下列哪个赋值语句是合法且不越界的?
 
-\* my\_array1\[4\]\[30\] = 1'b1;
+    \* my\_array1\[4\]\[30\] = 1'b1;
 
-\* my\_array1\[29\]\[4\] = 1'b1;
+    \* my\_array1\[29\]\[4\] = 1'b1;
 
-\* my\_array1\[4\] = 32'b1;
+    \* my\_array1\[4\] = 32'b1;
 
-2.  在合法赋值完成后绘制my\_array1。
+    2.  在合法赋值完成后绘制my\_array1。
 
-<!-- -->
 
 5.  声明一个5乘31的多维打包数组my\_array2。已打包数组的每个元素都保存一个2状态值。
 
     1.  下列哪个赋值语句是合法且不越界的?
 
-\* my\_array2\[4\]\[30\] = 1'b1;
+    \* my\_array2\[4\]\[30\] = 1'b1;
 
-\* my\_array2\[29\]\[4\] = 1'b1;
+    \* my\_array2\[29\]\[4\] = 1'b1;
 
-\* my\_array2\[3\] = 32'b1;
+    \* my\_array2\[3\] = 32'b1;
 
-2.  在赋值语句完成后绘制my\_array2。
+    2.  在赋值语句完成后绘制my\_array2。
 
-<!-- -->
-
-6.  <img src="..\media\ch2_image75.png" style="width:4.22in;height:2.56333in" />给定以下代码，确定将显示什么。
+6.  给定以下代码，确定将显示什么。
+    <img src="..\media\ch2_image75.png" style="width:4.22in;height:2.56333in" />
 
 7.  为以下问题编写代码。
 
@@ -894,9 +894,9 @@ SystemVerilog提供了许多新的数据类型和结构，这样您就可以创�
 
 9.  定义一个用户定义的7位类型，并使用新类型将下列数据包的字段封装在一个结构中。最后，分配头部到7'h5A。
 
-27 21日20 14日13 7日6 0
+        27 21 20 14 13 7 6 0
 
-<table><tbody><tr class="odd"><td><blockquote><p>头</p></blockquote></td><td><blockquote><p>cmd</p></blockquote></td><td><blockquote><p>数据</p></blockquote></td><td><blockquote><p>儿童权利公约</p></blockquote></td></tr></tbody></table>
+<table><tbody><tr class="odd"><td><blockquote><p>header</p></blockquote></td><td><blockquote><p>cmd</p></blockquote></td><td><blockquote><p>data</p></blockquote></td><td><blockquote><p>crc</p></blockquote></td></tr></tbody></table>
 
 10. 为以下需求创建SystemVerilog代码
 

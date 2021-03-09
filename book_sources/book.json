@@ -1,4 +1,5 @@
 {
+    "language": "zh-hans",
     "plugins": [
         "-lunr", "-search", "search-pro",
         "anchor-navigation-ex", "edit-link", "copy-code-button", "theme-comscore", "ga"

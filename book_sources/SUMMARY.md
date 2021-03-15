@@ -5,7 +5,7 @@
 * [第一章　　验证指南](./articles/chapter-01.md)
 * [第二章　　数据类型](./articles/chapter-02.md)
 * [第三章　　过程性语句和例程](./articles/chapter-03.md)
-* [第四章　连接设计和Testbench](./articles/chapter_04_new.md)
+* [第四章　　连接设计和Testbench](./articles/chapter_04_new.md)
 * [第五章　　面向对象基础](./articles/chapter-05.md)
 * [第六章　　随机](./articles/chapter-06.md)
 * [第七章　　线程和进程间通信](./articles/chapter-07.md)
